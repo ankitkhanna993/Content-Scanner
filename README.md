@@ -9,7 +9,7 @@ CampusPress ContentMonitor Scanner
 ```python3 cpcontentscanner.py```
 
 #### Explanation: 
-1. Prompt will ask for a site URL to scan. Enter a complete URL like https://blog.uta.edu/xxxx/xxxx
+1. Prompt will ask for a site URL to scan. Enter a complete URL.
 2. The script first validates the URL entered and re-prompts for an input if the URL cannot be reached.
 3. After successful validation, the URL is scraped for visible text and stored in a python list.
 4. A profanity list is then used to find the difference between the visible web page text and the profanity list to find any common words.
